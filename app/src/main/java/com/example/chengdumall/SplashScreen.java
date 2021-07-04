@@ -11,6 +11,7 @@ import android.view.WindowManager;
 import com.airbnb.lottie.model.layer.SolidLayer;
 
 public class SplashScreen extends AppCompatActivity {
+    String myname="this is my name";
 
     int SPLASH_TIME_OUT=3000;
     @Override

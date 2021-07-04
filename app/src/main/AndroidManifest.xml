@@ -12,17 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChengduMall" >
-        <activity
-            android:name=".navactivity"
-            android:label="@string/title_activity_navactivity"
-            android:theme="@style/Theme.ChengduMall.NoActionBar"
-            tools:ignore="MissingClass">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".NavActivity"
             android:label="@string/title_activity_nav"
@@ -37,14 +27,15 @@
             android:name=".Mynavigationdrawer"
             android:label="@string/title_activity_mynavigationdrawer"
             android:theme="@style/Theme.ChengduMall.NoActionBar" >
-        </activity>
-        <activity android:name=".Register" />
-        <activity android:name=".SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".SplashScreen" >
+
         </activity>
 
         <meta-data
