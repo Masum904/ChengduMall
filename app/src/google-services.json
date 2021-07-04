@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80289014970",
+    "project_id": "chengdu-mall",
+    "storage_bucket": "chengdu-mall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80289014970:android:befc0c5a838471e8178e83",
+        "android_client_info": {
+          "package_name": "com.example.chengdumall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80289014970-fpvjlcjhc0bbt9dpfco7r97c7dnk4hgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxrh0Urehcjifyu_Y5lGkYbXJa9vmun-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80289014970-fpvjlcjhc0bbt9dpfco7r97c7dnk4hgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

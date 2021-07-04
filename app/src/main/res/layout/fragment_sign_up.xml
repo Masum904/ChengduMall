@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EF0606">
+
+        <ImageButton
+            android:id="@+id/signUpCloseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:src="@drawable/cross"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:ems="10"
+            android:fontFamily="@font/knewave"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Chengdu Mall"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/signUpCloseButton"
+            tools:layout_editor_absoluteX="1dp"></TextView>
+
+        <EditText
+
+            android:id="@+id/signUpUserNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bgedittext"
+            android:backgroundTint="#C82A2A"
+            android:hint="  Enter User Name"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="0dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/SIgnUpEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bgedittext"
+            android:backgroundTint="#C82A2A"
+            android:hint="  Enter Email Id"
+            android:padding="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpUserNameId">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/SIgnUpPassId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgedittext"
+            android:backgroundTint="#C82A2A"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="  Enter Password"
+            android:padding="10dp"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/SIgnUpEmailId"
+            tools:layout_editor_absoluteX="0dp">
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/SignUpButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:backgroundTint="#AF0404"
+            android:layout_marginTop="50dp"
+            android:text="Sign-Up"
+            android:enabled="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SIgnUpPassId"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/HaveAccountId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="4dp"
+            android:text="Have an account"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignUpButtonId"></TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>
