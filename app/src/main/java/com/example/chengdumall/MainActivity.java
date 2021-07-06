@@ -7,4 +7,5 @@ public class MainActivity extends Activity {
     private Button button;
     String string="new String";
     String string1="last";
+    int num=111;
 }
