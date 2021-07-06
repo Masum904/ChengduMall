@@ -6,4 +6,5 @@ import android.widget.Button;
 public class MainActivity extends Activity {
     private Button button;
     String string="new String";
+    String string1="last";
 }
